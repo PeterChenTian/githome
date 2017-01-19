@@ -1,8 +1,8 @@
-name:  nginxxx
+name:  工作底稿
 description: |
-   nginx image
+    中金云金融（北京）大数据科技股份有限公司
 version:  1.0.0
 category:  WEB
-maintainer:  liumiaocn
+maintainer:  bruce
 license:  Apache 2
-projectURL: https://github.com/ liumiaocn/rancher-cattle-autocatalog
+projectURL: www.baidu.com
