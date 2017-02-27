@@ -8,10 +8,10 @@ services:
     - 8088:8080/tcp
     labels:
       io.rancher.container.pull_image: always
-  lb:
-    image: rancher/lb-service-haproxy:v0.4.9
+  wp-lb:
+    image: rancher/lb-service-haproxy:v0.5.9
     ports:
-    - 9000:9000/tcp
+    - 8088:8088/tcp
     labels:
       io.rancher.container.agent.role: environmentAdmin
       io.rancher.container.create_agent: 'true'
