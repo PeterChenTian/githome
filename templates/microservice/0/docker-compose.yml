@@ -1,0 +1,8 @@
+#  nginx image
+microservice:
+  image:  nginx
+  environment:
+    EDGE_A: '${EDGE_A}'
+    EDGE_B: '${EDGE_B}'
+    REDIS_IP: '${REDIS_IP}'
+    REDIS_PORT: '${REDIS_PORT}'
