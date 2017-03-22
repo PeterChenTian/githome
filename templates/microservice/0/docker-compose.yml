@@ -9,4 +9,4 @@ microservice:
   external_links:
     - mircservice-freamwork/edge-server:edge-server
   labels:
-      io.rancher.scheduler.affinity:host_label: group=lb
+      io.rancher.scheduler.affinity:host_label: grx=mse
