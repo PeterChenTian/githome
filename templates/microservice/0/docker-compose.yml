@@ -8,3 +8,5 @@ microservice:
     REDIS_PORT: '${REDIS_PORT}'
   external_links:
     - mircservice-freamwork/edge-server:edge-server
+  labels:
+      io.rancher.scheduler.affinity:host_label: group=lb
