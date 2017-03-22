@@ -6,3 +6,5 @@ microservice:
     EDGE_B: '${EDGE_B}'
     REDIS_IP: '${REDIS_IP}'
     REDIS_PORT: '${REDIS_PORT}'
+  external_links:
+    - mircservice-freamwork/edge-server:edge-server
