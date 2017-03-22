@@ -1,6 +1,6 @@
 #  nginx image
 microservice:
-  image:  nginx
+  image:  10.1.241.80:5000/peter/centos:dev
   environment:
     EDGE_A: '${EDGE_A}'
     EDGE_B: '${EDGE_B}'
