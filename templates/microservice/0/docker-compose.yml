@@ -1,12 +1,8 @@
-#  nginx image
-microservice:
-  image:  10.1.241.80:5000/peter/nginx:dev
-  environment:
-    EDGE_A: '${EDGE_A}'
-    EDGE_B: '${EDGE_B}'
-    REDIS_IP: '${REDIS_IP}'
-    REDIS_PORT: '${REDIS_PORT}'
-  external_links:
-    - mircservice-freamwork/edge-server:edge-server
-  labels:
-      io.rancher.scheduler.affinity:host_label: grx=mse
+version: '2'
+services:
+  nginx2:
+    image: 10.1.241.80:5000/peter/nginx:dev
+    stdin_open: true
+    tty: true
+    labels:
+      io.rancher.container.pull_image: always
