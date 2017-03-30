@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx:
-    image: 10.1.241.80:5000/peter/nginx:dev
+    image: 172.16.234.101:5000/peter/nginx:dev
     stdin_open: true
     tty: true
     labels:
