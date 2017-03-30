@@ -2,26 +2,6 @@ version: '2'
 .catalog:
   name: test
   version: 1.0.0
-  - variable: "EDGE_A"
-    description: "Edge Server A"
-    label: "Edge Server A"
-    required: true
-    type: "string"
-  - variable: "EDGE_B"
-    label: "Edge Server B"
-    description: "Edge Server B"
-    type: "string"
-    required: true
-  - variable: REDIS_IP
-    label: "Redis ip address"
-    description: "Redis ip address"
-    type: "string"
-    required: true
-  - variable: REDIS_PORT
-    label: "Redis port number"
-    description: "Redis port number"
-    type: "string"
-    required: true
 services:
   nginx:
     scale: 1

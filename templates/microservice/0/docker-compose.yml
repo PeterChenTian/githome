@@ -4,10 +4,5 @@ services:
     image: 10.1.241.80:5000/peter/nginx:dev
     stdin_open: true
     tty: true
-    environment:
-        EDGE_A: '${EDGE_A}'
-    	EDGE_B: '${EDGE_B}'
-    	REDIS_IP: '${REDIS_IP}'
-    	REDIS_PORT: '${REDIS_PORT}'
     labels:
       io.rancher.container.pull_image: always
